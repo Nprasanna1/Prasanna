@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+       <div class="container">
+        <div class="header">YAY! It's BOGO</div>
+        
+        <div class="offer">
+            <label>
+                <input type="radio" name="offer" value="10" data-price="10" checked> 1 Unit <span class="discount">10% Off</span>
+            </label>
+            <div class="details">
+                <div>$10.00 USD</div>
+                <div style="text-decoration: line-through;">$24.00 USD</div>
+            </div>
+        </div>
+        
+        <div class="offer">
+            <div class="most-popular">MOST POPULAR</div>
+            <label>
+                <input type="radio" name="offer" value="20" data-price="18"> 2 Unit <span class="discount">20% Off</span>
+            </label>
+            <div class="details">
+                <div>$18.00 USD</div>
+                <div style="text-decoration: line-through;">$24.00 USD</div>
+            </div>
+            <div class="sizes">
+                <div>
+                    #1 Size <select><option>S</option><option>M</option><option>L</option></select>
+                    Colour <select><option>Black</option><option>Red</option><option>Blue</option></select>
+                </div>
+                <div>
+                    #2 Size <select><option>S</option><option>M</option><option>L</option></select>
+                    Colour <select><option>Black</option><option>Red</option><option>Blue</option></select>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <label>
+                <input type="radio" name="offer" value="30" data-price="24"> 3 Unit <span class="discount">30% Off</span>
+            </label>
+            <div class="details">
+                <div>$24.00 USD</div>
+                <div style="text-decoration: line-through;">$24.00 USD</div>
+            </div>
+        </div>
+
+        <div class="free-delivery">Free Delivery</div>
+        <div class="total">Total: $<span id="total-price">10.00</span> USD</div>
+        
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+        
+      <script src="script.js"></script>
+  </body>
+</html>
